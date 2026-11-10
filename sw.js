@@ -1,6 +1,6 @@
 /* Built by scripts/build-pwa.mjs, never shipped with placeholders. */
-const CACHE = 'leaf-shell-4fb3b45eb054b261';
-const SHELL = ["/","/manifest.webmanifest","/icons/icon-192.png","/icons/icon-512.png","/icons/apple-touch-icon.png","/icons/maskable-512.png","/assets/index-DKiMEV2X.js","/assets/index-D6exel-T.css"];
+const CACHE = 'leaf-shell-17a084784dbf8d3f';
+const SHELL = ["/","/manifest.webmanifest","/icons/icon-192.png","/icons/icon-512.png","/icons/apple-touch-icon.png","/icons/maskable-512.png","/assets/index-4wvxRIrp.js","/assets/index-D6exel-T.css"];
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const responses = await Promise.all(SHELL.map(async url => {
